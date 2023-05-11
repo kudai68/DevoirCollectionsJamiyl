@@ -14,3 +14,8 @@ print(liste)
 liste2 = [element for element in liste if "a" in element]
 print("--------------------------Nouvelle liste avec les éléments contenant la lettre 'a'-------------------------")
 print(liste2)
+
+# Ajout d'un élément à la fin de la liste
+liste.append("grenouille")
+print("------------------------------Liste après ajout d'un élément à la fin-----------------------------------")
+print(liste)
