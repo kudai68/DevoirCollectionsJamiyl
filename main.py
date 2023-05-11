@@ -9,3 +9,8 @@ print(liste)
 liste[4] = "Nascar"
 print("------------------------------Liste après modification de l'élément numéro 5--------------------------------")
 print(liste)
+
+# Création d'une nouvelle liste en la remplissant avec les éléments de la liste précédente contenant la lettre "a"
+liste2 = [element for element in liste if "a" in element]
+print("--------------------------Nouvelle liste avec les éléments contenant la lettre 'a'-------------------------")
+print(liste2)
