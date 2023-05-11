@@ -49,3 +49,5 @@ liste.clear()
 print("----------------------------------------------Liste vidée---------------------------------------------------")
 print(liste)
 
+# Suppression de la liste
+del liste
