@@ -69,3 +69,7 @@ print(tuple)
 print("--------------------------Le nombre de fois que la valeur 3 apparait dans la tuple est--------------------------")
 print(tuple.count(3))
 
+# Affichage du contenu de l'élément numéro 5
+print("---------------------------------------Le contenu de l'élément numéro 5 est---------------------------------------")
+print(tuple[4])
+
