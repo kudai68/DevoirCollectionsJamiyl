@@ -32,4 +32,10 @@ print(liste)
 
 # Suppression de l'élément à l’index numéro 2
 liste.pop(2)
-print("Liste après suppression de l'élément à l'index numéro 2 : ", liste)
+print("--------------------------Liste après suppression de l'élément à l'index numéro 2--------------------------")
+print(liste)
+
+# Liste ordonnée
+liste.sort()
+print("----------------------------------------Liste ordonnée-----------------------------------------------------")
+
