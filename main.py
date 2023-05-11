@@ -101,3 +101,8 @@ uneSet = set(["Football", "Basketball", "Handball", "Volleyball", "Baseball", "H
 print("-----------------------------------------------Affichage set---------------------------------------------------")
 print(uneSet)
 
+# Ajout d'un élément au set
+uneSet.add("Nascar")
+print("----------------------------------------------------Set après ajout---------------------------------------------")
+print(uneSet)
+
