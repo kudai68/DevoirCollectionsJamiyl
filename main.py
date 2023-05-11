@@ -26,6 +26,10 @@ print("--------------------------Liste après ajout d'un élément à l'index nu
 print(liste)
 
 # Suppression de l'élément numéro 3
-del liste[2]
+liste.pop(2)
 print("-------------------------------Liste après suppression de l'élément numéro 3-------------------------------")
 print(liste)
+
+# Suppression de l'élément à l’index numéro 2
+liste.pop(2)
+print("Liste après suppression de l'élément à l'index numéro 2 : ", liste)
