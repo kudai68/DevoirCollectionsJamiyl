@@ -92,3 +92,8 @@ laTuple = tuple(liste_laTuple)
 print("-----------------------------------------------laTuple après ajout----------------------------------------------")
 print(laTuple)
 
+print("============================================Question 3==========================================================")
+
+# Création d'un set de 10 éléments de type chaîne de caractères
+uneSet = set(["Football", "Basketball", "Handball", "Volleyball", "Baseball", "Hockey", "Golf", "Cycling", "Cricket", "F1"])
+
