@@ -4,3 +4,8 @@ liste = ["Football", "Basketball", "Handball", "Volleyball", "Baseball", "Hockey
 # Affichage des éléments de la liste
 print("----------------------------------Affichage des éléments de la liste----------------------------------------")
 print(liste)
+
+# Changer le contenu de l'élément numéro 5
+liste[4] = "Nascar"
+print("------------------------------Liste après modification de l'élément numéro 5--------------------------------")
+print(liste)
