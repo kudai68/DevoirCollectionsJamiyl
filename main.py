@@ -111,3 +111,5 @@ uneSet.remove("Baseball")
 print("----------------------------------------------------Set après suppression-----------------------------------------")
 print(uneSet)
 
+# Suppression du set
+del uneSet
