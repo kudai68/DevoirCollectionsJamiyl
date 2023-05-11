@@ -106,3 +106,8 @@ uneSet.add("Nascar")
 print("----------------------------------------------------Set après ajout---------------------------------------------")
 print(uneSet)
 
+# Suppression d'un élément du set
+uneSet.remove("Baseball")
+print("----------------------------------------------------Set après suppression-----------------------------------------")
+print(uneSet)
+
