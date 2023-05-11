@@ -73,3 +73,8 @@ print(tuple.count(3))
 print("---------------------------------------Le contenu de l'élément numéro 5 est---------------------------------------")
 print(tuple[4])
 
+# Ordonner la tuple
+tuple = tuple(sorted(tuple))
+print("--------------------------------------------------Tuple ordonnée--------------------------------------------------")
+print(tuple)
+
