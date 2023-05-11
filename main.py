@@ -59,29 +59,36 @@ del liste
 print("============================================Question 2==========================================================")
 
 # Création d'une tuple de 10 éléments de type entier
-tuple = (6, 10, 2002, 36, 100, 44, 77, 99, 3, 14)
+laTuple = (6, 10, 2002, 36, 100, 44, 77, 99, 3, 14)
 
 # Affichage des éléments de la tuple
-print("---------------------------------------Les éléments de la tuple sont----------------------------------------------")
-print(tuple)
+print("---------------------------------------Les éléments de la laTuple sont----------------------------------------------")
+print(laTuple)
 
 # Affichage du nombre de fois que la valeur 3 apparait dans la tuple
-print("--------------------------Le nombre de fois que la valeur 3 apparait dans la tuple est--------------------------")
-print(tuple.count(3))
+print("--------------------------Le nombre de fois que la valeur 3 apparait dans la laTuple est--------------------------")
+print(laTuple.count(3))
 
 # Affichage du contenu de l'élément numéro 5
 print("---------------------------------------Le contenu de l'élément numéro 5 est---------------------------------------")
-print(tuple[4])
+print(laTuple[4])
 
 # Ordonner la tuple
-tuple = tuple(sorted(tuple))
-print("--------------------------------------------------Tuple ordonnée--------------------------------------------------")
-print(tuple)
+laTuple = tuple(sorted(laTuple))
+print("--------------------------------------------------laTuple ordonnée--------------------------------------------------")
+print(laTuple)
 
 # Ajouter un élément à la fin de la tuple
-liste_tuple = list(tuple)
-liste_tuple.append(11)
-tuple = tuple(liste_tuple)
-print("-----------------------------------------------Tuple après ajout----------------------------------------------")
-print(tuple)
+liste_laTuple = list(laTuple)
+liste_laTuple.append(11)
+laTuple = tuple(liste_laTuple)
+
+# Ajouter un élément à l'index 3
+liste_laTuple = list(laTuple)
+liste_laTuple.insert(3,786)
+laTuple = tuple(liste_laTuple)
+
+# Afficher la nouvelle tuple
+print("-----------------------------------------------laTuple après ajout----------------------------------------------")
+print(laTuple)
 
