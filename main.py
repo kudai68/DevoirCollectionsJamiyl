@@ -19,3 +19,8 @@ print(liste2)
 liste.append("grenouille")
 print("------------------------------Liste après ajout d'un élément à la fin-----------------------------------")
 print(liste)
+
+# Ajout d'un élément à l’index numéro 2
+liste.insert(1, "Schistosoma")
+print("--------------------------Liste après ajout d'un élément à l'index numéro 2------------------------------")
+print(liste)
