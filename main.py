@@ -65,3 +65,7 @@ tuple = (6, 10, 2002, 36, 100, 44, 77, 99, 3, 14)
 print("---------------------------------------Les éléments de la tuple sont----------------------------------------------")
 print(tuple)
 
+# Affichage du nombre de fois que la valeur 3 apparait dans la tuple
+print("--------------------------Le nombre de fois que la valeur 3 apparait dans la tuple est--------------------------")
+print(tuple.count(3))
+
