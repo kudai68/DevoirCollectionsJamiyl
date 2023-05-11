@@ -78,3 +78,10 @@ tuple = tuple(sorted(tuple))
 print("--------------------------------------------------Tuple ordonnée--------------------------------------------------")
 print(tuple)
 
+# Ajouter un élément à la fin de la tuple
+liste_tuple = list(tuple)
+liste_tuple.append(11)
+tuple = tuple(liste_tuple)
+print("-----------------------------------------------Tuple après ajout----------------------------------------------")
+print(tuple)
+
