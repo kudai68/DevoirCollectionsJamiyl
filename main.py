@@ -24,3 +24,8 @@ print(liste)
 liste.insert(1, "Schistosoma")
 print("--------------------------Liste après ajout d'un élément à l'index numéro 2------------------------------")
 print(liste)
+
+# Suppression de l'élément numéro 3
+del liste[2]
+print("-------------------------------Liste après suppression de l'élément numéro 3-------------------------------")
+print(liste)
