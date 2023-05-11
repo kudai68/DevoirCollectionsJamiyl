@@ -1,3 +1,6 @@
+# Question 1
+print("============================================Question 1==========================================================")
+
 # Création d'une liste de 10 éléments de type chaîne de caractères
 liste = ["Football", "Basketball", "Handball", "Volleyball", "Baseball", "Hockey", "Golf", "Cycling", "Cricket", "F1"]
 
@@ -51,3 +54,9 @@ print(liste)
 
 # Suppression de la liste
 del liste
+
+# Question 2
+print("============================================Question 2==========================================================")
+
+# Création d'une tuple de 10 éléments de type entier
+tuple = (6, 10, 2002, 36, 100, 44, 77, 99, 3, 14)
