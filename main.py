@@ -39,3 +39,8 @@ print(liste)
 liste.sort()
 print("----------------------------------------Liste ordonnée-----------------------------------------------------")
 
+# Affichage de la liste au sens inverse
+liste_inverse = liste[::-1]
+print("---------------------------------------------Liste inversée------------------------------------------------")
+print(liste_inverse)
+
