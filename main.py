@@ -60,3 +60,8 @@ print("============================================Question 2===================
 
 # Création d'une tuple de 10 éléments de type entier
 tuple = (6, 10, 2002, 36, 100, 44, 77, 99, 3, 14)
+
+# Affichage des éléments de la tuple
+print("---------------------------------------Les éléments de la tuple sont----------------------------------------------")
+print(tuple)
+
