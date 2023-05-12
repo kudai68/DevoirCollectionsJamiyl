@@ -165,6 +165,7 @@ dictionnaire_copie = dictionnaire.copy()
 
 # Affichage des nouveaux éléments
 print("-----------------------------------Affichage des nouveaux éléments-------------------------------------")
-for cle, valeur in dictionnaire_copie.items():
-    if cle not in dictionnaire:
-        print(f"{cle} : {valeur}")
+for k, v in dictionnaire_copie.items():
+    print(f"{k} : {v}")
+
+print("=============================================================FIN=========================================================")
