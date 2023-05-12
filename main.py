@@ -136,7 +136,17 @@ print("--------------------------------Affichage du Dictionnaire----------------
 print(dictionnaire)
 
 # Affichage des clés
-print("-------------------------------------Affichage des clé-------------------------------------------------")
+print("-------------------------------------Affichage des clés-------------------------------------------------")
 for k in dictionnaire.keys():
     print(k)
+
+# Affichage des valeurs
+print("-------------------------------------Affichage des valeurs-------------------------------------------------")
+for v in dictionnaire.values():
+    print(v)
+
+# Affichage des clés et des valeurs
+print("-----------------------------------Affichage des clés et des valeurs-------------------------------------")
+for k, v in dictionnaire.items():
+    print(f"{k} : {v}")
 
