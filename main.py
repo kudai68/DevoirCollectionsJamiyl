@@ -113,3 +113,21 @@ print(uneSet)
 
 # Suppression du set
 del uneSet
+
+# Question 4
+print("============================================Question 4==========================================================")
+
+# Création d'un dictionnaire de 10 éléments
+dictionnaire = {
+    "ichi": "Kurosaki",
+    "ni": "Uzumaki",
+    "san": "Hyogoro",
+    "yon": "Kishimoto",
+    "go": "Eichiro",
+    "roku": "Kazuma",
+    "nana": "Tanjiro",
+    "hachi": "Namikaze",
+    "kyu": "Hyuga",
+    "juu": "Sakura"
+}
+
