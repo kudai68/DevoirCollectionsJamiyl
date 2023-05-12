@@ -131,3 +131,7 @@ dictionnaire = {
     "juu": "Sakura"
 }
 
+# Affichage du dictionnaire
+print("--------------------------------Affichage du Dictionnaire--------------------------------------------")
+print(dictionnaire)
+
