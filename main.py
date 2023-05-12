@@ -152,8 +152,6 @@ for k, v in dictionnaire.items():
 
 # Suppression de l'élément à la clé numéro 2
 dictionnaire.pop("nii")
-print("-----------------------------------Affichage après suppresion de la clé 2-------------------------------------")
-print(dictionnaire)
 
 # Affichage de l'élément de la clé numéro 5
 print("------------------------------------Elément de la clé numéro 5-----------------------------------------")
@@ -162,3 +160,11 @@ print(dictionnaire["go"])
 # Ajout d'un nouvel élément
 dictionnaire["isen"] = "Toyotaru"
 
+# Création d'une copie du dictionnaire
+dictionnaire_copie = dictionnaire.copy()
+
+# Affichage des nouveaux éléments
+print("-----------------------------------Affichage des nouveaux éléments-------------------------------------")
+for cle, valeur in dictionnaire_copie.items():
+    if cle not in dictionnaire:
+        print(f"{cle} : {valeur}")
