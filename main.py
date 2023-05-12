@@ -154,3 +154,8 @@ for k, v in dictionnaire.items():
 dictionnaire.pop("nii")
 print("-----------------------------------Affichage après suppresion de la clé 2-------------------------------------")
 print(dictionnaire)
+
+# Affichage de l'élément de la clé numéro 5
+print("------------------------------------Elément de la clé numéro 5-----------------------------------------")
+print(dictionnaire["go"])
+
