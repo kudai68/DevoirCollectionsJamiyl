@@ -159,3 +159,6 @@ print(dictionnaire)
 print("------------------------------------Elément de la clé numéro 5-----------------------------------------")
 print(dictionnaire["go"])
 
+# Ajout d'un nouvel élément
+dictionnaire["isen"] = "Toyotaru"
+
