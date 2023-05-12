@@ -135,3 +135,8 @@ dictionnaire = {
 print("--------------------------------Affichage du Dictionnaire--------------------------------------------")
 print(dictionnaire)
 
+# Affichage des clés
+print("-------------------------------------Affichage des clé-------------------------------------------------")
+for k in dictionnaire.keys():
+    print(k)
+
