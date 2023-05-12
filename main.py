@@ -120,7 +120,7 @@ print("============================================Question 4===================
 # Création d'un dictionnaire de 10 éléments
 dictionnaire = {
     "ichi": "Kurosaki",
-    "ni": "Uzumaki",
+    "nii": "Uzumaki",
     "san": "Hyogoro",
     "yon": "Kishimoto",
     "go": "Eichiro",
@@ -150,3 +150,7 @@ print("-----------------------------------Affichage des clés et des valeurs----
 for k, v in dictionnaire.items():
     print(f"{k} : {v}")
 
+# Suppression de l'élément à la clé numéro 2
+dictionnaire.pop("nii")
+print("-----------------------------------Affichage après suppresion de la clé 2-------------------------------------")
+print(dictionnaire)
